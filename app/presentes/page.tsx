@@ -130,35 +130,17 @@ function capitalize(str: string): string {
 
 function IconCheck() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
       <circle cx="9" cy="9" r="8.5" stroke="var(--caramel)" />
-      <polyline
-        points="5,9 8,12 13,6"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <polyline points="5,9 8,12 13,6" stroke="var(--caramel)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
 
 function IconCircle() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="9" cy="9" r="8.5" stroke="var(--beige)" />
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <circle cx="9" cy="9" r="8.5" stroke="var(--cappuccino)" />
     </svg>
   );
 }
@@ -166,13 +148,7 @@ function IconCircle() {
 function IconChevronDown() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-      <polyline
-        points="2,5 7,10 12,5"
-        stroke="var(--text-muted)"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <polyline points="2,5 7,10 12,5" stroke="var(--text-muted)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -180,13 +156,7 @@ function IconChevronDown() {
 function IconChevronUp() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-      <polyline
-        points="2,10 7,5 12,10"
-        stroke="var(--text-muted)"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <polyline points="2,10 7,5 12,10" stroke="var(--text-muted)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -194,72 +164,20 @@ function IconChevronUp() {
 function IconSearch() {
   return (
     <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
-      <circle
-        cx="6.5"
-        cy="6.5"
-        r="5.5"
-        stroke="var(--cappuccino)"
-        strokeWidth="1.2"
-      />
-      <line
-        x1="10.5"
-        y1="10.5"
-        x2="14"
-        y2="14"
-        stroke="var(--cappuccino)"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-      />
+      <circle cx="6.5" cy="6.5" r="5.5" stroke="var(--cappuccino)" strokeWidth="1.2" />
+      <line x1="10.5" y1="10.5" x2="14" y2="14" stroke="var(--cappuccino)" strokeWidth="1.2" strokeLinecap="round" />
     </svg>
   );
 }
 
 function IconGift() {
   return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        x="3"
-        y="8"
-        width="18"
-        height="14"
-        rx="1"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-      />
-      <line
-        x1="3"
-        y1="12"
-        x2="21"
-        y2="12"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-      />
-      <line
-        x1="12"
-        y1="8"
-        x2="12"
-        y2="22"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-      />
-      <path
-        d="M12 8C12 8 9 2 6 4C4 5 5 8 12 8Z"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 8C12 8 15 2 18 4C20 5 19 8 12 8Z"
-        stroke="var(--caramel)"
-        strokeWidth="1.2"
-        strokeLinejoin="round"
-      />
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="8" width="18" height="14" rx="1" stroke="var(--caramel)" strokeWidth="1.2" />
+      <line x1="3" y1="12" x2="21" y2="12" stroke="var(--caramel)" strokeWidth="1.2" />
+      <line x1="12" y1="8" x2="12" y2="22" stroke="var(--caramel)" strokeWidth="1.2" />
+      <path d="M12 8C12 8 9 2 6 4C4 5 5 8 12 8Z" stroke="var(--caramel)" strokeWidth="1.2" strokeLinejoin="round" />
+      <path d="M12 8C12 8 15 2 18 4C20 5 19 8 12 8Z" stroke="var(--caramel)" strokeWidth="1.2" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -267,12 +185,7 @@ function IconGift() {
 function IconPix() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-      <path
-        d="M12 2L14.5 7H20L15.5 10.5L17 16L12 12.5L7 16L8.5 10.5L4 7H9.5L12 2Z"
-        stroke="currentColor"
-        strokeWidth="1.2"
-        strokeLinejoin="round"
-      />
+      <path d="M12 2L14.5 7H20L15.5 10.5L17 16L12 12.5L7 16L8.5 10.5L4 7H9.5L12 2Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -280,20 +193,8 @@ function IconPix() {
 function IconHome() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-      <path
-        d="M3 12L12 3L21 12"
-        stroke="currentColor"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M5 10V20H9V15H15V20H19V10"
-        stroke="currentColor"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M3 12L12 3L21 12" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M5 10V20H9V15H15V20H19V10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -303,16 +204,12 @@ function IconHome() {
 export default function Presentes() {
   const [presentes, setPresentes] = useState<Presente[]>([]);
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
-  const [expandedCategories, setExpandedCategories] = useState<
-    Record<string, boolean>
-  >({});
+  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({});
   const [nome, setNome] = useState("");
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [itemToSign, setItemToSign] = useState<string | null>(null);
-  const [selectedMethod, setSelectedMethod] = useState<"pix" | "casa" | null>(
-    null,
-  );
+  const [selectedMethod, setSelectedMethod] = useState<"pix" | "casa" | null>(null);
   const [showThankYou, setShowThankYou] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -392,22 +289,16 @@ export default function Presentes() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        style={{ paddingTop: "6rem", minHeight: "100vh" }}
+        className="pt-24 min-h-screen bg-bg"
       >
         {/* Header */}
-        <section style={{ textAlign: "center", padding: "4rem 2rem 2rem" }}>
-          <p style={labelStyle}>Sarah &amp; Carlo</p>
+        <section className="text-center py-16 px-8">
+          <p className="font-montserrat text-[0.65rem] tracking-[0.5em] uppercase text-caramel mb-4">Sarah &amp; Carlo</p>
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            style={{
-              fontFamily: "'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(2rem, 6vw, 3.8rem)",
-              color: "var(--dark)",
-              marginBottom: "1.5rem",
-            }}
+            className="font-garamond font-light text-[clamp(2rem,6vw,3.8rem)] text-dark mb-6"
           >
             Lista de Presentes
           </motion.h1>
@@ -419,113 +310,61 @@ export default function Presentes() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          style={{
-            maxWidth: 860,
-            margin: "2.5rem auto",
-            padding: "0 2rem",
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "1rem",
-            alignItems: "stretch",
-          }}
+          className="max-w-[860px] mx-auto mb-10 px-8 flex flex-wrap gap-4 items-center"
         >
           {/* Search input */}
-          <label style={searchWrapStyle}>
+          <label className="flex-1 min-w-[220px] flex items-center gap-[0.625rem] border border-beige rounded-full px-4 bg-white cursor-text">
             <IconSearch />
             <input
               type="text"
               placeholder="Buscar presente…"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              style={searchInputStyle}
+              className="font-poppins text-[0.82rem] font-light py-[0.625rem] border-none bg-transparent text-dark outline-none w-full"
             />
           </label>
 
           {/* Category select */}
-          <div style={selectWrapStyle}>
+          <div className="relative min-w-[190px]">
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              style={selectInputStyle}
+              className="font-poppins text-[0.82rem] font-light py-[0.625rem] pl-[1.125rem] pr-[2.25rem] border border-beige rounded-full bg-white text-dark outline-none appearance-none cursor-pointer w-full"
             >
               <option value="">Todas as categorias</option>
               {categorias.map((c) => (
-                <option key={c} value={c}>
+                <option key={c} value={c} className="bg-bg">
                   {capitalize(c)}
                 </option>
               ))}
             </select>
-            <span
-              style={{
-                position: "absolute",
-                right: "0.875rem",
-                top: "50%",
-                transform: "translateY(-50%)",
-                pointerEvents: "none",
-              }}
-            >
+            <span className="absolute right-[0.875rem] top-1/2 -translate-y-1/2 pointer-events-none">
               <IconChevronDown />
             </span>
           </div>
         </motion.section>
 
         {/* Categories */}
-        <section
-          style={{ maxWidth: 860, margin: "0 auto 6rem", padding: "0 2rem" }}
-        >
+        <section className="max-w-[860px] mx-auto mb-24 px-8">
           {categorias.map((cat) => {
             const itens = filtrados.filter((p) => p.categoria === cat);
             if (selectedCategory && selectedCategory !== cat) return null;
             if (itens.length === 0 && searchQuery) return null;
-            const isExpanded = selectedCategory
-              ? true
-              : expandedCategories[cat];
+            const isExpanded = selectedCategory ? true : expandedCategories[cat];
 
             return (
-              <div
-                key={cat}
-                style={{
-                  borderBottom: "1px solid var(--beige)",
-                  marginBottom: "0.5rem",
-                }}
-              >
+              <div key={cat} className="border-b border-beige mb-2">
                 {/* Category header */}
                 <div
                   onClick={() => toggleCategory(cat)}
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    cursor: "pointer",
-                    padding: "1.25rem 0",
-                  }}
+                  className="flex items-center justify-between cursor-pointer py-5"
                 >
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.875rem",
-                    }}
-                  >
+                  <div className="flex items-center gap-[0.875rem]">
                     <CategoryIcon cat={cat} />
-                    <h2
-                      style={{
-                        fontFamily: "'Cormorant Garamond', serif",
-                        fontWeight: 400,
-                        fontSize: "clamp(1.2rem, 2.5vw, 1.6rem)",
-                        color: "var(--dark)",
-                      }}
-                    >
+                    <h2 className="font-garamond font-normal text-[clamp(1.2rem,2.5vw,1.6rem)] text-dark">
                       {capitalize(cat)}
                     </h2>
-                    <span
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "0.6rem",
-                        letterSpacing: "0.2em",
-                        color: "var(--cappuccino)",
-                      }}
-                    >
+                    <span className="font-montserrat text-[0.6rem] tracking-[0.2em] text-cappuccino">
                       {itens.filter((i) => i.assinado).length}/{itens.length}
                     </span>
                   </div>
@@ -540,7 +379,7 @@ export default function Presentes() {
                       animate={{ opacity: 1, height: "auto" }}
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.28 }}
-                      style={{ listStyle: "none", overflow: "hidden" }}
+                      className="list-none overflow-hidden"
                     >
                       {itens.map((item) => (
                         <motion.li
@@ -549,39 +388,16 @@ export default function Presentes() {
                           whileInView={{ opacity: 1 }}
                           viewport={{ once: true }}
                           transition={{ duration: 0.4 }}
-                          style={{
-                            borderBottom: "1px solid var(--fg)",
-                            padding: "0.875rem 0",
-                          }}
+                          className="border-b border-creamy py-[0.875rem]"
                         >
                           <div
-                            onClick={() =>
-                              !item.assinado && toggleItem(item.id)
-                            }
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "0.875rem",
-                              cursor: item.assinado ? "default" : "pointer",
-                            }}
+                            onClick={() => !item.assinado && toggleItem(item.id)}
+                            className={`flex items-center gap-[0.875rem] ${item.assinado ? "cursor-default" : "cursor-pointer"}`}
                           >
-                            <span style={{ flexShrink: 0 }}>
+                            <span className="flex-shrink-0">
                               {item.assinado ? <IconCheck /> : <IconCircle />}
                             </span>
-                            <span
-                              style={{
-                                fontFamily: "'Poppins', sans-serif",
-                                fontSize: "0.88rem",
-                                fontWeight: 300,
-                                color: item.assinado
-                                  ? "var(--cappuccino)"
-                                  : "var(--text-muted)",
-                                textDecoration: item.assinado
-                                  ? "line-through"
-                                  : "none",
-                                letterSpacing: "0.01em",
-                              }}
-                            >
+                            <span className={`font-poppins text-[0.88rem] font-light tracking-[0.01em] ${item.assinado ? "text-cappuccino line-through" : "text-text-muted"}`}>
                               {item.nome}
                             </span>
                           </div>
@@ -593,30 +409,19 @@ export default function Presentes() {
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0, y: -6 }}
                                 transition={{ duration: 0.25 }}
-                                style={{
-                                  display: "flex",
-                                  gap: "0.625rem",
-                                  marginTop: "0.75rem",
-                                  paddingLeft: "1.75rem",
-                                }}
+                                className="flex gap-[0.625rem] mt-3 pl-7"
                               >
                                 <input
                                   type="text"
                                   placeholder="Seu nome"
                                   value={nome}
                                   onChange={(e) => setNome(e.target.value)}
-                                  onKeyDown={(e) =>
-                                    e.key === "Enter" && abrirModal(item.id)
-                                  }
-                                  style={{
-                                    ...searchInputStyle,
-                                    flex: 1,
-                                    paddingLeft: "0.875rem",
-                                  }}
+                                  onKeyDown={(e) => e.key === "Enter" && abrirModal(item.id)}
+                                  className="font-poppins text-[0.82rem] font-light py-[0.625rem] pl-[0.875rem] border border-beige rounded-full bg-white text-dark outline-none flex-1"
                                 />
                                 <button
                                   onClick={() => abrirModal(item.id)}
-                                  style={btnPrimaryStyle}
+                                  className="font-montserrat text-[0.65rem] tracking-[0.25em] uppercase px-[1.375rem] py-[0.6rem] bg-caramel text-white border-none rounded-[2px] cursor-pointer inline-flex items-center justify-center whitespace-nowrap"
                                 >
                                   Assinar
                                 </button>
@@ -633,15 +438,7 @@ export default function Presentes() {
           })}
 
           {presentes.length === 0 && (
-            <p
-              style={{
-                textAlign: "center",
-                color: "var(--cappuccino)",
-                fontFamily: "'Poppins', sans-serif",
-                fontSize: "0.85rem",
-                padding: "5rem 0",
-              }}
-            >
+            <p className="text-center text-cappuccino font-poppins text-[0.85rem] py-20">
               Carregando presentes…
             </p>
           )}
@@ -657,133 +454,79 @@ export default function Presentes() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            style={overlayStyle}
+            className="fixed inset-0 bg-dark/45 backdrop-blur-[6px] flex items-center justify-center z-[200] p-6"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.96, y: 16 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.96, y: 16 }}
-              style={modalStyle}
+              className="bg-bg p-[clamp(2rem,5vw,3rem)_clamp(1.5rem,5vw,2.5rem)] rounded-lg max-w-[480px] w-full max-h-[85vh] overflow-y-auto text-center shadow-[0_20px_50px_rgba(92,61,46,0.2)]"
             >
-              <div style={{ margin: "0 auto 1.25rem", width: 28 }}>
+              <div className="mx-auto mb-5 w-7">
                 <IconGift />
               </div>
-              <h2 style={modalTitleStyle}>Como deseja presentear?</h2>
-              <p style={modalTextStyle}>
+              <h2 className="font-garamond font-normal text-[clamp(1.2rem,3vw,1.7rem)] text-dark mb-2">Como deseja presentear?</h2>
+              <p className="font-poppins text-[0.85rem] font-light text-text-muted leading-[1.75]">
                 Ao confirmar, o item será marcado como escolhido.
               </p>
 
-              <div
-                style={{
-                  display: "flex",
-                  gap: "0.75rem",
-                  justifyContent: "center",
-                  margin: "1.75rem 0",
-                  flexWrap: "wrap",
-                }}
-              >
+              <div className="flex gap-3 justify-center my-7 flex-wrap">
                 <button
                   onClick={() => setSelectedMethod("pix")}
-                  style={methodBtnStyle(selectedMethod === "pix")}
+                  className={`flex flex-col items-center p-4 border rounded-[2px] min-w-[130px] transition-all duration-[180ms] font-montserrat text-[0.62rem] tracking-[0.2em] uppercase ${selectedMethod === "pix" ? "border-caramel bg-caramel/5 text-caramel" : "border-beige bg-transparent text-text-muted"}`}
                 >
                   <IconPix />
-                  <span style={{ marginTop: "0.5rem" }}>
-                    Transferência / PIX
-                  </span>
+                  <span className="mt-2">Transferência / PIX</span>
                 </button>
                 <button
                   onClick={() => setSelectedMethod("casa")}
-                  style={methodBtnStyle(selectedMethod === "casa")}
+                  className={`flex flex-col items-center p-4 border rounded-[2px] min-w-[130px] transition-all duration-[180ms] font-montserrat text-[0.62rem] tracking-[0.2em] uppercase ${selectedMethod === "casa" ? "border-caramel bg-caramel/5 text-caramel" : "border-beige bg-transparent text-text-muted"}`}
                 >
                   <IconHome />
-                  <span style={{ marginTop: "0.5rem" }}>Entregar em Casa</span>
+                  <span className="mt-2">Entregar em Casa</span>
                 </button>
               </div>
 
               <AnimatePresence>
                 {selectedMethod === "pix" && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -6 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    <p style={modalTextStyle}>
-                      Chave PIX:{" "}
-                      <strong style={{ color: "var(--dark)" }}>
-                        — a definir —
-                      </strong>
+                  <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mb-4">
+                    <p className="font-poppins text-[0.85rem] font-light text-text-muted leading-[1.75]">
+                      Chave PIX: <strong className="text-dark">— a definir —</strong>
                     </p>
-                    <p
-                      style={{
-                        ...modalTextStyle,
-                        fontSize: "0.78rem",
-                        marginTop: "0.4rem",
-                      }}
-                    >
+                    <p className="font-poppins text-[0.78rem] font-light text-text-muted leading-[1.75] mt-[0.4rem]">
                       QR Code disponível em breve.
                     </p>
                   </motion.div>
                 )}
                 {selectedMethod === "casa" && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -6 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    <p
-                      style={{
-                        ...modalTextStyle,
-                        fontWeight: 500,
-                        color: "var(--dark)",
-                        marginBottom: "0.35rem",
-                      }}
-                    >
+                  <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mb-4">
+                    <p className="font-poppins text-[0.85rem] font-medium text-dark leading-[1.75] mb-[0.35rem]">
                       Endereço para entrega:
                     </p>
-                    <p style={modalTextStyle}>— a definir —</p>
-                    <p
-                      style={{
-                        ...modalTextStyle,
-                        fontSize: "0.78rem",
-                        marginTop: "0.4rem",
-                      }}
-                    >
+                    <p className="font-poppins text-[0.85rem] font-light text-text-muted leading-[1.75]">
+                      — a definir —
+                    </p>
+                    <p className="font-poppins text-[0.78rem] font-light text-text-muted leading-[1.75] mt-[0.4rem]">
                       Entre em contato para combinar.
                     </p>
                   </motion.div>
                 )}
               </AnimatePresence>
 
-              <div
-                style={{
-                  display: "flex",
-                  gap: "0.75rem",
-                  justifyContent: "center",
-                  marginTop: "1.25rem",
-                  flexWrap: "wrap",
-                }}
-              >
+              <div className="flex gap-3 justify-center mt-5 flex-wrap">
                 <button
                   onClick={() => setShowModal(false)}
-                  style={btnSecondaryStyle}
+                  className="font-montserrat text-[0.65rem] tracking-[0.25em] uppercase px-[1.375rem] py-[0.6rem] bg-transparent text-text-muted border border-beige rounded-[2px] cursor-pointer inline-flex items-center justify-center whitespace-nowrap"
                 >
                   Cancelar
                 </button>
                 <button
                   onClick={confirmarAssinatura}
                   disabled={!selectedMethod || loading}
-                  style={{
-                    ...btnPrimaryStyle,
-                    opacity: !selectedMethod ? 0.45 : 1,
-                    cursor: !selectedMethod ? "not-allowed" : "pointer",
-                  }}
+                  className={`font-montserrat text-[0.65rem] tracking-[0.25em] uppercase px-[1.375rem] py-[0.6rem] bg-caramel text-white border-none rounded-[2px] inline-flex items-center justify-center whitespace-nowrap transition-opacity ${!selectedMethod ? "opacity-45 cursor-not-allowed" : "opacity-100 cursor-pointer"}`}
                 >
                   {loading ? (
-                    <AiOutlineLoading3Quarters
-                      style={{ animation: "spin 1s linear infinite" }}
-                    />
+                    <AiOutlineLoading3Quarters className="animate-spin" />
                   ) : (
                     "Confirmar"
                   )}
@@ -801,25 +544,24 @@ export default function Presentes() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            style={overlayStyle}
+            className="fixed inset-0 bg-dark/45 backdrop-blur-[6px] flex items-center justify-center z-[200] p-6"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.96, y: 16 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.96, y: 16 }}
-              style={modalStyle}
+              className="bg-bg p-[clamp(2rem,5vw,3rem)_clamp(1.5rem,5vw,2.5rem)] rounded-lg max-w-[480px] w-full text-center shadow-[0_20px_50px_rgba(92,61,46,0.2)]"
             >
-              <div style={{ margin: "0 auto 1.25rem", width: 28 }}>
+              <div className="mx-auto mb-5 w-7">
                 <IconGift />
               </div>
-              <h2 style={modalTitleStyle}>Muito obrigado!</h2>
-              <p style={modalTextStyle}>
-                Sua generosidade significa muito para nós. Que Deus abençoe você
-                ricamente!
+              <h2 className="font-garamond font-normal text-[clamp(1.2rem,3vw,1.7rem)] text-dark mb-2">Muito obrigado!</h2>
+              <p className="font-poppins text-[0.85rem] font-light text-text-muted leading-[1.75]">
+                Sua generosidade significa muito para nós. Que Deus abençoe você ricamente!
               </p>
               <button
                 onClick={() => setShowThankYou(false)}
-                style={{ ...btnPrimaryStyle, marginTop: "1.5rem" }}
+                className="font-montserrat text-[0.65rem] tracking-[0.25em] uppercase px-[1.375rem] py-[0.6rem] bg-caramel text-white border-none rounded-[2px] cursor-pointer inline-flex items-center justify-center whitespace-nowrap mt-6"
               >
                 Fechar
               </button>
@@ -827,150 +569,6 @@ export default function Presentes() {
           </motion.div>
         )}
       </AnimatePresence>
-
-      <style>{`
-        @keyframes spin { to { transform: rotate(360deg); } }
-        input::placeholder { color: var(--cappuccino); }
-        select option { background: var(--bg); }
-      `}</style>
     </>
   );
 }
-
-// ── Styles ─────────────────────────────────────────────────
-
-const labelStyle: React.CSSProperties = {
-  fontFamily: "'Montserrat', sans-serif",
-  fontSize: "0.65rem",
-  letterSpacing: "0.5em",
-  textTransform: "uppercase",
-  color: "var(--caramel)",
-  marginBottom: "1rem",
-};
-
-const searchWrapStyle: React.CSSProperties = {
-  flex: 1,
-  minWidth: 220,
-  display: "flex",
-  alignItems: "center",
-  gap: "0.625rem",
-  border: "1px solid var(--beige)",
-  borderRadius: "999px",
-  padding: "0 1rem",
-  background: "var(--white)",
-  cursor: "text",
-};
-
-const searchInputStyle: React.CSSProperties = {
-  fontFamily: "'Poppins', sans-serif",
-  fontSize: "0.82rem",
-  fontWeight: 300,
-  padding: "0.625rem 0",
-  border: "none",
-  background: "transparent",
-  color: "var(--dark)",
-  outline: "none",
-  width: "100%",
-};
-
-const selectWrapStyle: React.CSSProperties = {
-  position: "relative",
-  minWidth: 190,
-};
-
-const selectInputStyle: React.CSSProperties = {
-  fontFamily: "'Poppins', sans-serif",
-  fontSize: "0.82rem",
-  fontWeight: 300,
-  padding: "0.625rem 2.25rem 0.625rem 1.125rem",
-  border: "1px solid var(--beige)",
-  borderRadius: "999px",
-  background: "var(--white)",
-  color: "var(--dark)",
-  outline: "none",
-  appearance: "none",
-  cursor: "pointer",
-  width: "100%",
-};
-
-const btnPrimaryStyle: React.CSSProperties = {
-  fontFamily: "'Montserrat', sans-serif",
-  fontSize: "0.65rem",
-  letterSpacing: "0.25em",
-  textTransform: "uppercase",
-  padding: "0.6rem 1.375rem",
-  background: "var(--caramel)",
-  color: "var(--white)",
-  border: "none",
-  borderRadius: "2px",
-  cursor: "pointer",
-  display: "inline-flex",
-  alignItems: "center",
-  justifyContent: "center",
-  gap: "0.5rem",
-  whiteSpace: "nowrap",
-};
-
-const btnSecondaryStyle: React.CSSProperties = {
-  ...btnPrimaryStyle,
-  background: "transparent",
-  color: "var(--text-muted)",
-  border: "1px solid var(--beige)",
-};
-
-const overlayStyle: React.CSSProperties = {
-  position: "fixed",
-  inset: 0,
-  background: "rgba(92,61,46,0.45)",
-  backdropFilter: "blur(6px)",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  zIndex: 200,
-  padding: "1rem",
-};
-
-const modalStyle: React.CSSProperties = {
-  background: "var(--bg)",
-  padding: "2.5rem 2rem",
-  borderRadius: "2px",
-  maxWidth: 440,
-  width: "100%",
-  maxHeight: "90vh",
-  overflowY: "auto",
-  textAlign: "center",
-};
-
-const modalTitleStyle: React.CSSProperties = {
-  fontFamily: "'Cormorant Garamond', serif",
-  fontWeight: 400,
-  fontSize: "clamp(1.2rem, 3vw, 1.7rem)",
-  color: "var(--dark)",
-  marginBottom: "0.5rem",
-};
-
-const modalTextStyle: React.CSSProperties = {
-  fontFamily: "'Poppins', sans-serif",
-  fontSize: "0.85rem",
-  fontWeight: 300,
-  color: "var(--text-muted)",
-  lineHeight: 1.75,
-};
-
-const methodBtnStyle = (active: boolean): React.CSSProperties => ({
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  padding: "1rem 1.375rem",
-  border: `1px solid ${active ? "var(--caramel)" : "var(--beige)"}`,
-  borderRadius: "2px",
-  background: active ? "rgba(176,137,104,0.07)" : "transparent",
-  color: active ? "var(--caramel)" : "var(--text-muted)",
-  cursor: "pointer",
-  fontFamily: "'Montserrat', sans-serif",
-  fontSize: "0.62rem",
-  letterSpacing: "0.2em",
-  textTransform: "uppercase",
-  transition: "all 0.18s ease",
-  minWidth: 130,
-});

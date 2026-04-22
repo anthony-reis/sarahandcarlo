@@ -34,7 +34,11 @@ export default function Gallery() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
-          if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+          if (e.isIntersecting) { 
+            e.target.classList.add('visible'); 
+          } else {
+            e.target.classList.remove('visible');
+          }
         });
       },
       { threshold: 0.15 }
@@ -43,18 +47,32 @@ export default function Gallery() {
     return () => observer.disconnect();
   }, [urls]);
 
-  const slots = [1, 2, 3, 4, 5];
+  const slots = [1, 2, 3];
 
   return (
-    <section id="gallery" ref={sectionRef}>
-      <div className="mosaic">
+    <section id="gallery" ref={sectionRef} className="px-8 w-full max-w-[1200px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-6 w-full">
         {slots.map((slot, i) => (
-          <div key={slot} className={`tile reveal reveal-delay-${i}`}>
+          <div 
+            key={slot} 
+            className={`
+              overflow-hidden rounded-lg shadow-xl shadow-dark/5 reveal w-full
+              ${i === 0 ? 'h-[400px] md:h-[524px] md:row-span-2' : 'h-[250px]'}
+              [transition-delay:${i * 0.15}s]
+            `}
+          >
             {urls[i] ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={urls[i]} alt={`Foto ${slot}`} className="gallery-img" />
+              <img 
+                src={urls[i]} 
+                alt={`Foto ${slot}`} 
+                className="w-full h-full object-cover transition-transform duration-[800ms] ease-out hover:scale-105" 
+              />
             ) : (
-              <div className="img-placeholder">foto {slot}</div>
+              <div className="w-full h-full bg-creamy flex items-center justify-center font-montserrat text-[0.65rem] tracking-[0.15em] text-cappuccino uppercase border border-dashed border-cappuccino relative overflow-hidden group">
+                <div className="absolute inset-0 bg-[repeating-linear-gradient(-45deg,transparent,transparent_8px,rgba(176,137,104,0.08)_8px,rgba(176,137,104,0.08)_9px)]" />
+                <span className="relative transition-transform duration-[800ms] ease-out group-hover:scale-105">foto {slot}</span>
+              </div>
             )}
           </div>
         ))}

@@ -6,6 +6,7 @@ import Invitation     from '@/components/Invitation';
 import ParallaxBand   from '@/components/ParallaxBand';
 import History        from '@/components/History';
 import Gallery        from '@/components/Gallery';
+import InvitationCTA  from '@/components/InvitationCTA';
 import CeremonyCard   from '@/components/CeremonyCard';
 import MapSection     from '@/components/MapSection';
 import Footer         from '@/components/Footer';
@@ -18,25 +19,21 @@ export default function Home() {
       <SparkleEffect />
       <Navbar />
 
-      <main>
+      <main className="flex flex-col gap-[80px] pb-20">
         <Hero />
 
         <Invitation />
 
         {/* Foto principal do casal — adicione a URL do Firebase Storage em imageUrl */}
-        <ParallaxBand imageUrl="" />
+        <section className="w-full overflow-hidden">
+          <ParallaxBand imageUrl="" />
+        </section>
 
         <History />
 
         <Gallery />
 
-        {/* CTA entre galeria e cerimônia */}
-        <section id="invitation-cta">
-          <p className="reveal">
-            Com o coração cheio de alegria, convidamos você a viver conosco este momento tão especial.
-            A cada dia que passa, nos aproximamos ainda mais desse sonho que em breve se tornará realidade.
-          </p>
-        </section>
+        <InvitationCTA />
 
         <CeremonyCard />
 

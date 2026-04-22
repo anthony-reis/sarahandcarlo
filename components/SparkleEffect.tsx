@@ -3,20 +3,30 @@ import { useEffect } from 'react';
 
 export default function SparkleEffect() {
   useEffect(() => {
-    let lastSparkle = 0;
-    const handleMouseMove = (e: MouseEvent) => {
-      if (Date.now() - lastSparkle < 120) return;
-      lastSparkle = Date.now();
-      const s = document.createElement('div');
-      s.className = 'sparkle';
-      s.style.left = `${e.clientX - 3}px`;
-      s.style.top  = `${e.clientY - 3}px`;
-      document.body.appendChild(s);
-      setTimeout(() => s.remove(), 800);
+    const createSparkle = (e: MouseEvent) => {
+      const sparkle = document.createElement('div');
+      sparkle.className = 'sparkle';
+      sparkle.style.left = e.clientX + 'px';
+      sparkle.style.top = e.clientY + 'px';
+      
+      // Usando as variáveis CSS definidas no :root
+      sparkle.style.position = 'fixed';
+      sparkle.style.pointerEvents = 'none';
+      sparkle.style.zIndex = '9998';
+      sparkle.style.width = '6px';
+      sparkle.style.height = '6px';
+      sparkle.style.borderRadius = '50%';
+      sparkle.style.backgroundColor = 'var(--cappuccino)';
+      sparkle.style.opacity = '0';
+      sparkle.style.animation = 'sparkleAnim 0.8s ease forwards';
+
+      document.body.appendChild(sparkle);
+      setTimeout(() => sparkle.remove(), 800);
     };
-    document.addEventListener('mousemove', handleMouseMove);
-    return () => document.removeEventListener('mousemove', handleMouseMove);
+
+    window.addEventListener('mousemove', createSparkle);
+    return () => window.removeEventListener('mousemove', createSparkle);
   }, []);
 
-  return null; // sem markup — apenas efeito de cursor
+  return null;
 }
