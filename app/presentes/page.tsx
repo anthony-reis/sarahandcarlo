@@ -324,7 +324,7 @@ export default function Presentes() {
         const data: Presente[] = snap.docs.map((d) => ({
           id: d.id,
           nome: d.data().nome || d.id.replace(/-/g, " "),
-          categoria: d.data().categoria ?? "",
+          categoria: (d.data().categoria ?? "").trim().toLowerCase(),
           assinado: d.data().assinado ?? false,
           quemAssinou: d.data().quemAssinou ?? "",
         }));

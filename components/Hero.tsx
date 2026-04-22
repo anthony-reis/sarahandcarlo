@@ -1,5 +1,5 @@
-'use client';
-import { useEffect, useRef } from 'react';
+"use client";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -11,14 +11,14 @@ export default function Hero() {
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add('visible');
+            e.target.classList.add("visible");
             observer.unobserve(e.target);
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.15 },
     );
-    section.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    section.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
 
@@ -39,7 +39,7 @@ export default function Hero() {
       </p>
 
       <div className="hero-scroll">
-        <span>Rolar</span>
+        <span>Continue</span>
         <div className="scroll-line" />
       </div>
     </section>
