@@ -25,8 +25,8 @@ export default function History() {
 
   return (
     <section id="history" ref={sectionRef} className="px-8 w-full max-w-[900px] mx-auto">
-      <p className="font-montserrat text-[0.65rem] tracking-[0.5em] uppercase text-caramel text-center mb-8 reveal">Nossa Jornada</p>
-      <h2 className="font-garamond font-light text-[clamp(2rem,5vw,3.5rem)] text-center text-dark mb-12 reveal [transition-delay:0.15s]">Nossa História</h2>
+      <p className="font-montserrat text-[0.65rem] tracking-[0.5em] uppercase text-caramel text-center mb-8 reveal">Nossa História</p>
+      <h2 className="font-garamond font-light text-[clamp(2rem,5vw,3.5rem)] text-center text-dark mb-12 reveal [transition-delay:0.15s]">O começo do nosso pra sempre</h2>
       
       <div className="columns-1 md:columns-2 gap-12 reveal [transition-delay:0.3s]">
         <p className="font-poppins text-[0.9rem] font-light leading-[1.9] text-text-muted mb-6">
