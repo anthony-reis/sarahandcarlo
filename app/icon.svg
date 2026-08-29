@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#F3E9D7" rx="22"/>
+  
+  <!-- Church Body -->
+  <polygon points="50,32 24,58 24,90 76,90 76,58" fill="#3B2A22" />
+  
+  <!-- Cross -->
+  <rect x="48" y="10" width="4" height="22" fill="#B08968" />
+  <rect x="43" y="16" width="14" height="4" fill="#B08968" />
+  
+  <!-- Door (Gothic Arch) -->
+  <path d="M42,90 L42,70 C42,60 58,60 58,70 L58,90 Z" fill="#F3E9D7" />
+  
+  <!-- Rose Window -->
+  <circle cx="50" cy="48" r="6" fill="#F3E9D7" />
+</svg>

@@ -38,6 +38,15 @@ export default function Home() {
         <CeremonyCard />
 
         <MapSection />
+
+        <div className="flex justify-center items-center w-full px-8 mt-2">
+          <a
+            href="/presentes"
+            className="bg-mocha text-white font-montserrat text-[0.7rem] md:text-[0.8rem] tracking-[0.2em] uppercase py-4 px-12 rounded-full hover:bg-dark transition-all duration-300 shadow-xl shadow-mocha/20 hover:shadow-mocha/40 text-center"
+          >
+            Lista de Presentes
+          </a>
+        </div>
       </main>
 
       <Footer />
