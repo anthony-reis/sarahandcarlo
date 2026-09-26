@@ -1,6 +1,10 @@
 'use client';
+import { useState } from 'react';
+import GiftersModal from './GiftersModal';
 
 export default function Footer() {
+  const [showGifters, setShowGifters] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -23,10 +27,16 @@ export default function Footer() {
       <p className="font-montserrat text-[0.65rem] tracking-[0.3em] text-white/40 mb-8 uppercase">Rute 1:16-17</p>
       
       <div className="font-poppins text-[0.85rem] font-light text-cappuccino mt-8 leading-relaxed px-4">
-        Somos muito gratos por terem caminhado conosco até aqui.<br />
+        Somos muito{' '}
+        <span onClick={() => setShowGifters(true)} className="cursor-text select-none">
+          gratos
+        </span>{' '}
+        por terem caminhado conosco até aqui.<br />
         Cada um de vocês tem um lugar especial em nossos corações.
         <p className="font-garamond text-lg text-white/50 mt-4">12.12.2026</p>
       </div>
+
+      <GiftersModal open={showGifters} onClose={() => setShowGifters(false)} />
     </footer>
   );
 }
