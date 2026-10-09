@@ -24,9 +24,9 @@ export default function Home() {
 
         <Invitation />
 
-        {/* Foto principal do casal — adicione a URL do Firebase Storage em imageUrl */}
-        <section className="w-full overflow-hidden">
-          <ParallaxBand imageUrl="" />
+        {/* Foto principal do casal */}
+        <section className="w-full px-8">
+          <ParallaxBand imageUrl="/fotos/casal-principal.jpg" />
         </section>
 
         <History />
