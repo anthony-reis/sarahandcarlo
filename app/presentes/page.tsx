@@ -381,6 +381,11 @@ export default function Presentes() {
                       transition={{ duration: 0.28 }}
                       className="list-none overflow-hidden"
                     >
+                      {cat === "quarto" && (
+                        <li className="mb-2 px-4 py-3 rounded-[2px] border border-beige bg-caramel/5 font-poppins text-[0.8rem] font-light text-text-muted leading-[1.6]">
+                          Atenção: o tamanho da cama é <strong className="font-medium text-dark">Queen</strong>. Considere essa medida ao escolher itens de cama.
+                        </li>
+                      )}
                       {itens.map((item) => (
                         <motion.li
                           key={item.id}
